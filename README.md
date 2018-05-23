@@ -1,27 +1,40 @@
-# code-challenge
+# Reverie - Inventory Tracking App
 
-a [Sails v1](https://sailsjs.com) application
+Dr. Robert Ford has hired Riverstone to develop an application for
+managing his inventory of robots. There are certain characteristics that he
+would like to track for all robots. The app should have a front-end and a
+back-end component.
 
+## Backend
 
-### Links
-
-+ [Get started](https://sailsjs.com/get-started)
-+ [Sails framework documentation](https://sailsjs.com/documentation)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/enterprise)
-
-
-### Version info
-
-This app was originally generated on Tue May 22 2018 21:47:22 GMT-0600 (MDT) using Sails v1.0.2.
-
-<!-- Internally, Sails used [`sails-generate@1.15.25`](https://github.com/balderdashy/sails-generate/tree/v1.15.25/lib/core-generators/new). -->
+The backend service should provide a RESTful API to interact with the data.
+The backend should be written in Node JS, and all of the testing should be done
+with Chai/Mocha. See the OpenAPI definition in the repo for details about the
+endpoints which should be exposed. Note: Some elements in the OpenAPI definition
+will need to be filled in (host, basePath, operationIds). 
 
 
+## Frontend
 
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
+The frontend will allow Dr. Ford the ability to perform the following actions.
 
+* Add new robots
+* View details for existing entries
+* Modify details for existing entries
+* Delete existing entry
+
+The frontend should be written as a single page application in JavaScript with
+the React framework. All of the testing should be written using Jest/Enzyme.
+
+
+## Continuous Integration
+
+Circle CI should be used to automate testing of the code base.
+
+
+## Vagrant
+
+Included in the repo is a basic Vagrantfile. Your app should run in the Vagrant
+VM with instructions on how to get it to work (if it's not automated by the
+Vagrantfile). If you've never used Vagrant, you can get information about how
+to get started [here](https://www.vagrantup.com/intro/getting-started/).
