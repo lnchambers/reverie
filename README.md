@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/lnchambers/reverie.svg?style=svg)](https://circleci.com/gh/lnchambers/reverie)
+
 # Reverie - Inventory Tracking App
 
 Dr. Robert Ford has hired Riverstone to develop an application for
