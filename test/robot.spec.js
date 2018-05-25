@@ -66,7 +66,7 @@ describe('Robot API',function() {
     req.send({
       robot: {
         date_added: 'March 22nd, 2042',
-        first_active: 'May 26th, 2042',
+        first_active: 'June 15th, 2052',
         current_name: 'The Man in Black',
         height: 4.05,
         weight: 242.05,
