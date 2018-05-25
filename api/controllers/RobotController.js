@@ -17,7 +17,7 @@ module.exports = {
         }
       });
     });
-  }
+  },
 
   create: function(req,res) {
   	var params = _.extend(req.query || {}, req.params || {}, req.body || {});

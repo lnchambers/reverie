@@ -44,12 +44,12 @@ module.exports.routes = {
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
 
-  'get /hosts': 'RobotController.index'
-  'get /hosts/:id': 'RobotController.show'
-  'post /hosts': 'RobotController.create'
-  'put /hosts/:id': 'RobotController.edit'
-  'patch /hosts/:id': 'RobotController.edit'
-  'delete /hosts/:id': 'RobotController.edit'
+  'get /hosts': 'RobotController.index',
+  'get /hosts/:id?': 'RobotController.show',
+  'post /hosts': 'RobotController.create',
+  'put /hosts/:id?': 'RobotController.update',
+  'patch /hosts/:id?': 'RobotController.update',
+  'delete /hosts/:id?': 'RobotController.destroy'
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗
