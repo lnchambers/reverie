@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/lnchambers/reverie.svg?style=svg)](https://circleci.com/gh/lnchambers/reverie)
+CircleCI: [![CircleCI](https://circleci.com/gh/lnchambers/reverie.svg?style=svg)](https://circleci.com/gh/lnchambers/reverie)
 
 # Reverie - Inventory Tracking App
 
