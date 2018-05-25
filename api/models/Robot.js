@@ -21,9 +21,9 @@ module.exports = {
 
     intelligence_metric: { type: 'integer' },
 
-    date_added: { type: 'timestamp' },
+    date_added: { type: 'string' },
 
-    first_active: { type: 'timestamp' }
+    first_active: { type: 'string' }
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
@@ -37,4 +37,3 @@ module.exports = {
   },
 
 };
-

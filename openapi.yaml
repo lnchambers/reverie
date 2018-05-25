@@ -43,7 +43,7 @@ paths:
         description: "Robot Data Object"
         required: true
         schema:
-          $ref: "#/definitions/robot"
+           $ref: "#/definitions/robot"
       responses:
         200:
           description: "New Robot Entry Successful"
