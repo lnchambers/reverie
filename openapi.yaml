@@ -6,8 +6,8 @@ info:
   termsOfService: ""
   contact:
     email: "contact@riverstone.io"
-host: "####"
-basePath: "/####/v1"
+host: "gentle-coast-90894.herokuapp.com/"
+basePath: "/api/v1"
 schemes:
   - "https"
 consumes:
