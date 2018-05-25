@@ -27,13 +27,13 @@
   "scripts": {
     "start": "NODE_ENV=production node app.js",
     "test": "npm run lint && npm run custom-tests && echo 'Done.'",
-    "lint": "eslint . --max-warnings=5 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "lint": "eslint . --max-warnings=10 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
     "custom-tests": "mocha test"
   },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lukechambers/code-challenge.git"
+    "url": "git://github.com/lukechambers/reverie.git"
   },
   "author": "lukechambers",
   "license": "",
